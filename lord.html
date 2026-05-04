@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma - Lord Farquaad</title>
     <style>
-        /* Importando as fontes que você definiu */
-        @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Josefin+Sans:wght@400;700&display=swap');
 
         body {
-            background-color: #22FFED; /* O fundo ciano que você escolheu */
+            background-color: #22FFED; 
             margin: 0;
             display: flex;
             justify-content: center;
@@ -18,19 +16,19 @@
             font-family: 'Josefin Sans', sans-serif;
         }
 
-        /* O Card principal que envolve tudo */
+        
         .container {
             display: grid;
-            grid-template-columns: 1fr 1fr; /* Divide em duas colunas: texto e imagem */
+            grid-template-columns: 1fr 1fr; 
             gap: 20px;
             max-width: 1000px;
             padding: 40px;
-            align-items: center; /* Alinha o conteúdo verticalmente */
+            align-items: center; 
         }
 
-        /* Título ocupando o topo das duas colunas */
+        
         .titulo {
-            grid-column: 1 / -1; /* Faz o título atravessar as duas colunas */
+            grid-column: 1 / -1; 
             color: #000000;
             font-family: 'Irish Grover', system-ui;
             font-size: 64px;
@@ -38,7 +36,7 @@
             margin-bottom: 20px;
         }
 
-        /* Estilo do texto (Amarelo) */
+        /
         .texto {
             color: #ECFD0A;
             font-family: 'Josefin Sans', sans-serif;
@@ -48,18 +46,18 @@
             font-weight: bold;
         }
 
-        /* Estilo da Imagem - Sem o fundo preto atrás */
+       
         .imagem-lord {
             width: 400px;
             height: auto;
             border-radius: 20px;
             display: block;
             margin: 0 auto;
-            /* Se quiser uma borda fina na foto: */
+          
             border: 2px solid #000; 
         }
 
-        /* Estilo do botão voltar */
+       
         .botao-voltar {
             grid-column: 1;
             color: #000;
@@ -78,7 +76,6 @@
         <!-- Título -->
         <h1 class="titulo">Lord Farquaad</h1>
 
-        <!-- Lado Esquerdo: Texto e Botão -->
         <div class="parte-texto">
             <p class="texto">
                 Farquaad é conhecido por sua personalidade arrogante e tirânica, e por sua paixão por controlar todos ao seu redor. Ele é um personagem complexo, que combina elementos de vilão clássico com uma certa profundidade psicológica.
